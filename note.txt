@@ -1,0 +1,43 @@
+robots.txt：查看可爬取的路径范围
+	例如：google.com/robots.txt
+
+第一步：获取网页内容
+	GET
+	POST
+	200 OK
+第二步：解析网页内容
+第三步：储存或分析数据（不涉及）
+
+<!DOCTYPE HTML>
+<html>
+    <body>
+        <h1> headline </h1>
+        <p> content </p>
+</html>
+
+标题：
+<h1> </h1>
+文本段落：
+<p> </p> 在p标签中的换行不起作用
+换行：
+<br>
+加粗：
+<b> </b>
+图片：
+<img src="https://...>
+链接：
+<a href="http ""> 我的主页 </a>
+容器：
+<div> <span>
+有序列表：
+<ol>
+    <li> </li>
+</ol>
+无序列表：
+<ul> </ul>
+表格：
+<table>
+    <thead>
+        <td> </td>
+    </thead>
+</table>
